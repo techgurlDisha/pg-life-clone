@@ -1,70 +1,126 @@
-# Getting Started with Create React App
+# 🏠 PG Life – Rental Listing Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PG Life is a full‑stack rental listing web application inspired by platforms that help students and working professionals find Paying Guest (PG) accommodations easily. The project focuses on clean UI, structured backend APIs, and a simple user flow from browsing to expressing interest in properties.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+* User authentication (Signup & Login)
+* Browse PG properties by city
+* View detailed property information
+* Mark properties as *Interested*
+* Responsive UI for better usability
+* Separate frontend and backend structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🛠 Tech Stack
 
-### `npm test`
+### Frontend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* HTML
+* CSS (Bootstrap)
+* JavaScript
+* React (inside `react-app/` folder)
 
-### `npm run build`
+### Backend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* PHP
+* MySQL
+* REST APIs
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Tools & Environment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* XAMPP (Apache + MySQL)
+* Git & GitHub
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 📁 Project Structure
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+PGLife/
+│
+├── api/                # Backend API files (PHP)
+├── css/                # Stylesheets
+├── img/                # Images & assets
+├── includes/           # Common PHP includes
+├── js/                 # JavaScript files
+├── react-app/          # React frontend app
+├── .gitignore
+└── README.md
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🚀 How to Run the Project Locally
 
-## Learn More
+### Step 1: Backend Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Install **XAMPP**
+2. Place the `PGLife` folder inside:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```
+   xampp/htdocs/
+   ```
+3. Start **Apache** and **MySQL** from XAMPP Control Panel
+4. Import the database into **phpMyAdmin** (if SQL file is provided)
 
-### Code Splitting
+### Step 2: Frontend (React App)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Navigate to the react app folder:
 
-### Analyzing the Bundle Size
+   ```
+   cd react-app
+   ```
+2. Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```
+   npm install
+   ```
+3. Start the React app:
 
-### Making a Progressive Web App
+   ```
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📸 Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+> Screenshots will be added soon.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🎯 Purpose of the Project
 
-### `npm run build` fails to minify
+This project was built to:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Practice full‑stack web development
+* Understand frontend–backend integration
+* Build a strong portfolio project
+* Prepare for internships and junior developer roles
+
+---
+
+## 👩‍💻 Author
+
+**Disha Shinde**
+Aspiring Full Stack Developer
+
+* GitHub: *(add your GitHub profile link)*
+* Email: *(optional)*
+
+---
+
+## 📌 Future Improvements
+
+* Advanced filters (rent, amenities)
+* Admin panel for property management
+* Better UI/UX
+* Deployment on cloud platform
+
+---
+
+⭐ If you like this project, feel free to star the repository!
