@@ -2,3 +2,5 @@ includes/config.php
 PGLifezip.zip
 /node_modules
 /react-app/node_modules
+react-app/build/
+node_modules/
